@@ -55,8 +55,6 @@ a {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    padding-right: 260px;
-    padding-left: 300px;
     background-color: #DCEAF5;
 }
 
@@ -64,10 +62,17 @@ a {
 
 .first-container{
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    flex-direction: row;
+    padding-top: 100px;
 }
 
+.hero-left, .hero-right{
+    width: 50%;
+    
+}
+.hero-right{
+    vertical-align: bottom;
+}
 
 
 .first-container-bText{
@@ -146,7 +151,6 @@ a {
     margin-right: 80px;
 }
 .second-container{
-
     width: 50%;
 
 }
@@ -163,8 +167,6 @@ a {
 }
 .second-section{
     max-width: 100%;
-    padding-right: 260px;
-    padding-left: 300px;
     background-color: #FFFFFF;
     padding-top: 90px;
     padding-bottom: 90px;
@@ -236,8 +238,6 @@ a {
 
 .third-section{
     background: #EDF7FF;
-    padding-right: 260px;
-    padding-left: 300px;
     padding-top: 90px;
     padding-bottom: 90px;
 
@@ -311,8 +311,6 @@ a {
 
 .forth-section{
     background: #FFFFFF;
-    padding-right: 260px;
-    padding-left: 300px;
 }
 
 .forth-container{
@@ -577,9 +575,7 @@ a {
     margin-top: 40px;
 }
 
-.seventh-container{
-    padding-right: 260px;
-    padding-left: 300px;
+.seventh-bazalt{
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
@@ -658,14 +654,10 @@ a {
     margin-top: 2px;
 }
 
-.eight-container{
-    margin-top: 120px;
-    padding-right: 260px;
-    padding-left: 300px;
+.eight-section{
+    padding-top: 96px;
     padding-bottom: 96px;
     background: #DCEAF5;
-    display: flex;
-    flex-direction: column;
 }
 
 .eight-title{
@@ -739,8 +731,6 @@ a {
 
 .fooder-section{
     background: #063255;
-    padding-right: 260px;
-    padding-left: 300px;
 }
 
 .fooder-container{
